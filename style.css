@@ -1,0 +1,13 @@
+.container {
+	width: 960px;
+	margin: 0 auto;
+};
+
+.span {
+}
+
+.box {
+	height: 60px;
+	width: 60px;
+	background-color: #292034;
+}
