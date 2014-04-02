@@ -1,13 +1,49 @@
-.container {
-	width: 960px;
-	margin: 0 auto;
-};
-
-.span {
+body {
+	font-family: arial, sans-serif;
 }
 
+.container {
+	width: 960px;
+	margin: auto;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+#button_container {
+	margin: auto;
+	display: inline-block;
+	text-align: center;
+}
+
+button {
+	margin: auto;
+	width: 100px;
+	height: 40px;
+	padding: 5px;
+	background-color: #dcdcdc;
+	border: 1px solid #666;
+	color: #000;
+	text-decoration: none;
+	display: inline-block;
+}
+
+#grid_container {
+	overflow: auto;
+	width: 960px;
+	height: 960px;
+	margin: auto;
+	margin-top: 20px;
+	border: solid black;
+}
+
+.span {
+	min-width: 960px;
+	background-color: #FFFFFF;
+}
 .box {
-	height: 60px;
-	width: 60px;
-	background-color: #292034;
+	background-color: #666
+	float: left;
 }
